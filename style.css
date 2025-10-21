@@ -38,6 +38,10 @@ section{
         z-index: -1;
     }
 
+    .bg-desktopTop{
+        display: none;
+    }
+
     .head{
         color: hsl(300, 43%, 22%);
         font-weight: 700;
@@ -122,4 +126,121 @@ section{
 }
 
 @media (min-width: 600px){
+
+    .bg-desktopTop{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+
+    .top-bg{
+        display: none;
+    }
+
+    .bot-bg{
+        display: none;
+    }
+
+    .head{
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size: 2.5rem;
+        width: 30%;
+        margin-top: 50px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 0;
+    }
+
+    .textSub{
+        color: hsl(303, 10%, 53%);
+        font-weight: 500;
+        width: 50%;
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin-bottom: 40px;
+        position: absolute;
+        left: 0;
+        top: 40%;
+    }
+
+    #ratingBox{
+        background-color:hsl(300, 24%, 96%) ;
+        width: 40%;
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+    }
+
+    .positionRating2{
+        top: 70px;
+    }
+
+    .positionRating3{
+        top: 140px;
+    }
+
+    .ratingText{
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .desktop-position{
+        display: flex;
+        position: absolute;
+        top: 300px;
+        left: 100px;
+    }
+
+    #purpleBox{
+        position: relative;
+        background-color: hsl(300, 43%, 22%);
+        width: 25%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+
+    }
+
+    .positionReview2{
+        top: 20px;
+    }
+    
+    .positionReview3{
+        top: 40px;
+    }
+
+    .pfpIcon{
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .purpleText{
+        color: white;
+        margin-left: 80px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .whiteText{
+        color: white;
+        width: 80%;
+        margin-left: 35px;
+        line-height: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+
 }
